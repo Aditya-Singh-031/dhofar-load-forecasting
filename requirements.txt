@@ -1,47 +1,49 @@
 # Core Data Processing
 pandas==2.2.0
 numpy==1.26.3
-polars==0.20.3
 
-# Deep Learning - PyTorch (CPU/GPU compatible)
+# Deep Learning - PyTorch
 torch==2.2.0
 torchvision==0.17.0
+torchaudio==2.2.0
+
+# PyTorch Lightning
 pytorch-lightning==2.1.0
 
-# Time Series Specific
-pytorch-forecasting==0.12.1
+# Time Series Forecasting (FIXED VERSION)
+pytorch-forecasting==1.5.0
+
+# Statistical Modeling
 statsmodels==0.14.0
 scikit-learn==1.4.1
 
 # Hyperparameter Tuning
 optuna==3.6.0
 
-# Visualization & Analysis
+# Visualization
 matplotlib==3.8.2
 seaborn==0.13.0
 plotly==5.18.0
-shap==0.45.0
-
-# Configuration & Utils
-pyyaml==6.0
-python-dotenv==1.0.0
-tqdm==4.67.0
-
-# Evaluation Metrics
-scikit-metrics==0.2.0
 
 # Explainability
+shap==0.45.0
 captum==0.7.0
 
-# Windows-specific (GPU acceleration)
-# Choose ONE based on your NVIDIA driver version
-torch-cuda==11.8  # Check your CUDA version: nvidia-smi
+# Configuration
+pyyaml==6.0
+python-dotenv==1.0.0
 
-# Development & Testing
-pytest==7.4.4
-black==23.12.1
-flake8==6.1.0
+# Progress Bars
+tqdm==4.67.0
 
-# Jupyter (for notebooks)
+# Data Reading (Excel files)
+openpyxl==3.1.2
+
+# Jupyter
 jupyter==1.0.0
 ipython==8.19.0
+ipykernel==6.29.0
+
+# Development
+pytest==7.4.4
+black==23.12.1
